@@ -84,12 +84,13 @@ body{
     margin-top: 3%;
     width: 100%;
     height: auto;
+    display: flex;
+    justify-content: space-between;
 }
 .checkbox{
     font-size: small;
     text-align: right;
     font-weight: bold;
-    
 }
 .forgetpasslink{
     font-size: smaller;
