@@ -1,0 +1,109 @@
+@font-face {
+    font-family: shabnam;
+    src: url(./assets/Shabnam-FD.ttf);
+  }
+body{
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    background-size: 100%;
+    background-image: url(./assets/backGround.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: shabnam;
+}
+*:focus {
+    outline: none;
+}
+::-webkit-input-placeholder {
+    font-size: large;
+    color: white;
+    font-weight: bold;
+  }
+.loginBox{
+    width: auto;
+    height: auto;
+    margin: 10% 37% 0% 37%;
+}
+.loginHeader{
+    text-align: center;
+    font-size: 4em;
+    color: white;
+}
+.inputsDivAttr{
+    margin-top: 15%;
+    width: 100%;
+    height: auto;
+
+}
+.inputTextAttr{
+    width: 100%;
+    height: auto;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    border-radius: 2px;
+    font-size: large;
+    font-weight: bold;
+    background-image: url(./assets/user.png);
+    background-repeat: no-repeat;
+}
+
+.inputPassAttr{
+    width: 100%;
+    height: auto;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    border-radius: 2px;
+    font-size: large;
+    font-weight: bold;
+    background-image: url(./assets/lock.png);
+    background-repeat: no-repeat;
+}
+.inputBtnAttr{
+    width: 100%;
+    height: auto;
+    padding: 5% 15%;
+    font-size: x-large;
+    font-weight: bolder;
+    background-color: #1E8AE5;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+.inputBtnAttr:hover { background: rgb(55, 165, 177); 
+}
+.loginDescription{
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+}
+.lastDiv{
+    margin-top: 3%;
+    width: 100%;
+    height: auto;
+}
+.checkbox{
+    font-size: small;
+    text-align: right;
+    font-weight: bold;
+    
+}
+.forgetpasslink{
+    font-size: smaller;
+    text-decoration: none !important;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+.loginInputs{
+    width: 100%;
+    height: auto;
+}
+.checkboxLabel{
+    color: white;
+    font-weight: bolder;
+
+}
